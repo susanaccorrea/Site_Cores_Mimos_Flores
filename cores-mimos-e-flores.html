@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cores Mimos e Flores</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+      color: #5a4b3b;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #e4c1ad;
+      padding: 20px;
+      text-align: center;
+      animation: fadeIn 2s;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-style: italic;
+    }
+    nav {
+      background-color: #d6a77a;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #5a4b3b;
+    }
+    .content {
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .produto {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .produto:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .produto img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .produto h3 {
+      margin-top: 0;
+      color: #8b5c43;
+    }
+    section h2 {
+      color: #8b5c43;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #e4c1ad;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+    .whatsapp-button {
+      display: inline-block;
+      background-color: #25d366;
+      color: white;
+      padding: 15px 25px;
+      margin-top: 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe57;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 8px 0;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cores Mimos e Flores</h1>
+    <p>Feito à mão com carinho</p>
+  </header>
+
+  <nav>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="content">
+
+    <section id="produtos">
+      <h2>Produtos</h2>
+
+      <div class="produto">
+        <img src="https://via.placeholder.com/600x300?text=Placa+Pet+Personalizada" alt="Placa Pet">
+        <h3>Placa Pet com Telefone do Dono</h3>
+        <p>Identifique seu pet com muito estilo e segurança. Feito em resina resistente, personalizada com nome e telefone do dono.</p>
+      </div>
+
+      <div class="produto">
+        <img src="https://via.placeholder.com/600x300?text=Kit+Caneta+e+Chaveiros" alt="Kit Caneta e Chaveiros">
+        <h3>Kit Caneta e Chaveiros</h3>
+        <p>Conjunto artesanal encantador! Canetas e chaveiros personalizados em resina, ideais para presentes especiais.</p>
+      </div>
+
+      <div class="produto">
+        <img src="https://via.placeholder.com/600x300?text=Chaveiros+Personalizados" alt="Chaveiros Personalizados">
+        <h3>Chaveiros Personalizados</h3>
+        <p>Personalize seus chaveiros como quiser: escolha cores, formatos e letras. Um mimo único para você ou para presentear!</p>
+      </div>
+
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Entre em contato para encomendas ou dúvidas:</p>
+      <ul>
+        <li>WhatsApp: (51) 99961-1058</li>
+        <li>Email: contato@coresmimoseflores.com</li>
+        <li>Instagram: <a href="#" target="_blank">@coresmimoseflores</a></li>
+      </ul>
+
+      <a href="https://wa.me/5551999611058" target="_blank" class="whatsapp-button">Fale conosco no WhatsApp</a>
+
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Cores Mimos e Flores. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
